@@ -1,5 +1,6 @@
 // pages/blog.js
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Blog() {
   const posts = [
@@ -43,8 +44,6 @@ export default function Blog() {
         <title>Insights & Articles - NeoSEO Blog</title>
         <meta name="description" content="Read the latest articles on search engine optimization, Next.js performance tuning, dark theme web design, and advanced developer resources." />
         <meta name="keywords" content="Next.js Blog, SEO Optimization, Core Web Vitals Guide, Dark Mode Design, Web Development" />
-
-        {/* Open Graph Meta Tags */}
         <meta property="og:title" content="Insights & Articles - NeoSEO Blog" />
         <meta property="og:description" content="Level up your tech stack and search engine authority with our deep dives." />
         <meta property="og:image" content="/og-image.png" />
@@ -60,6 +59,16 @@ export default function Blog() {
           Deep dives, technical guides, and strategies to help you optimize your web presence and design interfaces that stand out.
         </p>
       </header>
+
+      <div style={{ textAlign: "center", margin: "2rem 0" }}>
+        <Image
+          src="/og-image.png"
+          width={800}
+          height={400}
+          alt="NeoSEO Blog"
+          style={{ borderRadius: "12px", maxWidth: "100%" }}
+        />
+      </div>
 
       <section style={{ margin: "2rem 0" }}>
         <div className="card-grid">
