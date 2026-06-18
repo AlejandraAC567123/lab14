@@ -11,7 +11,7 @@ export default function Home() {
         <title>NeoSEO - Modern SEO & Performance Optimization</title>
         <meta name="description" content="Boost your website's visibility and user experience with NeoSEO. Modern solutions with purple/cyan dark interfaces, Pages Router optimization, and fast loading." />
         <meta name="keywords" content="SEO, Next.js, Pages Router, Core Web Vitals, Web Development, Modern Dark Theme" />
-        
+        <meta name="google-site-verification" content="Tvqsd_Qf0-Ed46aRDw4AVYwf16rMf-TeTHhuj-JG14c" />
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="NeoSEO - Modern SEO & Performance Optimization" />
         <meta property="og:description" content="Discover speed, performance, and top-tier SEO optimizations wrapped in an aesthetic dark-neon layout." />
